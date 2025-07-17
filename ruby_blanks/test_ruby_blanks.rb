@@ -3,7 +3,7 @@
 puts "-" * 15
 puts "| Ruby Blanks |"
 puts "-" * 15
-puts 
+puts
 
 puts "You provide a list of words."
 puts "I will use those words to fill in the blanks in a story."
