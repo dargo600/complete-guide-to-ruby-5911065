@@ -3,6 +3,10 @@
 MAX_GUESSES = 3
 desired_num = [*1..10].shuffle.first
 
+puts "----------------------"
+puts "| Guessing Game      |"
+puts "----------------------"
+
 print "What is your name? "
 name = gets.chomp
 print "Hello #{name}!  Time to play a guessing game\n"
