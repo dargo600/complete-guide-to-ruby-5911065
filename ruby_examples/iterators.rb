@@ -22,4 +22,10 @@ car.each do |k,v|
   puts "#{k}: #{v}"
 end
 
+puts "---"
+vehicle = { brand: 'GM', tire_count: 2 }
+
+vehicle.each do |k,v|
+  puts "vehicle: #{k} : #{v}"
+end
 
