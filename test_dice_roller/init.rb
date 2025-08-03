@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 
-require_relative 'classes/Dice'
-require_relative 'classes/DiceSet'
+require_relative 'classes/dice'
+require_relative 'classes/diceset'
 
 dice_set = DiceSet.new
 
