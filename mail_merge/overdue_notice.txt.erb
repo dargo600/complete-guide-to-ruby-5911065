@@ -1,9 +1,9 @@
-Dear ,
+Dear <%= @borrowed_by %>,
 
 The following library book is overdue.
 
-Title: 
-Days Overdue: 
-Overdue fee: 
+Title:        "<%= @book_title %>"
+Days Overdue: <%= @overdue_days %>
+Overdue fee:  <%= @fee %>
 
 Thank you for your prompt attention to this matter.
